@@ -1,10 +1,17 @@
 "use strict"
-//alert('Hola desde un archivo externo');
 
-// Este es un mensaje de la consola
-console.log('Hola consola');
+var nombre = "Sergio";
 
-var x;
-x = "3.1416";
+console.log(nombre)
 
-var publicData = "hola";
+function saludos() {
+    let nombre = "yacafx";
+    console.log(nombre);
+
+    let edad = 34;
+    console.log(edad)
+}
+
+console.log(edad)
+
+saludos();
